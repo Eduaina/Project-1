@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(128, 128, 128, 0.318);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.box { 
+    cursor: pointer;
+    margin-right: auto;
+}
+.cox li {
+    display: inline-block;
+    padding: 40px;
+}
+
+a { 
+ transition: all 0.3secs ease;
+ text-decoration: none;
+ font-family: 'open sans' sans-serif;
+ font-size: 16px;
+ font-weight:900;
+ }
+
+a:hover {
+    color: rgba(255, 144, 47, 0.293);
+ }
+
+button {
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: wheat;
+ }
+
+ button:hover {
+    background-color: rgba(128, 128, 128, 0.726);
+    opacity: .6;
+ }
+
